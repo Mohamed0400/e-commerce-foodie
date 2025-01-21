@@ -784,6 +784,7 @@ const Home = () => {
               {/* section */}
             </>
             <>
+              {/* section coming soon */}
               <section>
                 <div className="container ">
                   <div className="row">
@@ -851,6 +852,7 @@ const Home = () => {
             <>
               {/* cta section */}
               <section>
+                <div className="coming-soon">Coming soon...</div>
                 <div
                   className="container"
                   style={{
@@ -921,6 +923,7 @@ const Home = () => {
                           <div>
                             {/* app */}
                             {/* <small>Download app from</small> */}
+
                             <ul className="list-inline mb-0 mt-2 ">
                               {/* list item */}
                               <li className="list-inline-item">
@@ -1695,7 +1698,7 @@ const Home = () => {
                         alt="product"
                       />
                       <h6 class="card-title partner">
-                      <div>Baby Care</div>
+                        <div>Baby Care</div>
                       </h6>
                     </div>
                   </div>
@@ -1707,8 +1710,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Atta, Rice &amp; Dal</div>
+                      <h6 class="card-title">
+                        <div>Atta, Rice &amp; Dal</div>
                       </h6>
                     </div>
                   </div>
@@ -1720,8 +1723,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Bakery &amp; Biscuits</div>
+                      <h6 class="card-title">
+                        <div>Bakery &amp; Biscuits</div>
                       </h6>
                     </div>
                   </div>
@@ -1733,8 +1736,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Chicken, Meat &amp; Fish</div>
+                      <h6 class="card-title">
+                        <div>Chicken, Meat &amp; Fish</div>
                       </h6>
                     </div>
                   </div>
@@ -1746,8 +1749,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Cleaning Essentials</div>
+                      <h6 class="card-title">
+                        <div>Cleaning Essentials</div>
                       </h6>
                     </div>
                   </div>
@@ -1759,8 +1762,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Dairy, Bread &amp; Eggs</div>
+                      <h6 class="card-title">
+                        <div>Dairy, Bread &amp; Eggs</div>
                       </h6>
                     </div>
                   </div>
@@ -1772,8 +1775,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Instant Food</div>
+                      <h6 class="card-title">
+                        <div>Instant Food</div>
                       </h6>
                     </div>
                   </div>
@@ -1785,8 +1788,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                      <div>Pet Care</div>
+                      <h6 class="card-title">
+                        <div>Pet Care</div>
                       </h6>
                     </div>
                   </div>
@@ -1798,8 +1801,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Snack &amp; Munchies</div>
+                      <h6 class="card-title">
+                        <div>Snack &amp; Munchies</div>
                       </h6>
                     </div>
                   </div>
@@ -1811,8 +1814,8 @@ const Home = () => {
                         className="img-fluid"
                         alt="product"
                       />
-                       <h6 class="card-title">
-                       <div>Tea, Coffee &amp; Drinks</div>
+                      <h6 class="card-title">
+                        <div>Tea, Coffee &amp; Drinks</div>
                       </h6>
                     </div>
                   </div>

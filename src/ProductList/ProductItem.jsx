@@ -1,24 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import product1 from '../images/category-baby-care.jpg'
-import product2 from '../images/category-atta-rice-dal.jpg'
-import product3 from '../images/category-bakery-biscuits.jpg'
-import product4 from '../images/category-chicken-meat-fish.jpg'
-import product5 from '../images/category-cleaning-essentials.jpg'
-import product6 from '../images/category-dairy-bread-eggs.jpg'
-import product7 from '../images/category-instant-food.jpg'
-import product8 from '../images/category-pet-care.jpg'
-import product9 from '../images/category-snack-munchies.jpg'
-import product10 from '../images/category-tea-coffee-drinks.jpg'
-import Swal from 'sweetalert2';
+import product1 from "../images/category-baby-care.jpg";
+import product2 from "../images/category-atta-rice-dal.jpg";
+import product3 from "../images/category-bakery-biscuits.jpg";
+import product4 from "../images/category-chicken-meat-fish.jpg";
+import product5 from "../images/category-cleaning-essentials.jpg";
+import product6 from "../images/category-dairy-bread-eggs.jpg";
+import product7 from "../images/category-instant-food.jpg";
+import product8 from "../images/category-pet-care.jpg";
+import product9 from "../images/category-snack-munchies.jpg";
+import product10 from "../images/category-tea-coffee-drinks.jpg";
+import Swal from "sweetalert2";
 
 const ProductItem = () => {
-
-
   const handleAddClick = () => {
     Swal.fire({
-      icon: 'success',
-      title: 'Added to Cart',
+      icon: "success",
+      title: "Added to Cart",
       text: "Product has been added to your cart!",
       showConfirmButton: true,
       timer: 3000,
@@ -31,14 +29,14 @@ const ProductItem = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mb-6">
-            <div className="section-head text-center mt-8" >
-              <h3 className='h3style' data-title="Popular Products">Popular Products</h3>
-              <div className="wt-separator bg-primarys">
+              <div className="section-head text-center mt-8">
+                <h3 className="h3style" data-title="Popular Products">
+                  Popular Products
+                </h3>
+                <div className="wt-separator bg-primarys"></div>
+                <div className="wt-separator2 bg-primarys"></div>
+                {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
               </div>
-              <div className="wt-separator2 bg-primarys">
-              </div>
-              {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
-            </div>
             </div>
           </div>
           <div className="row g-4 row-cols-lg-5 row-cols-2 row-cols-md-3">
@@ -101,7 +99,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Haldiram's Sev Bhujia
+                      Biscuit Package
                     </Link>
                   </h2>
                   <div>
@@ -123,7 +121,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -223,7 +225,11 @@ const ProductItem = () => {
                       <span className="text-dark">$24</span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -324,7 +330,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -428,7 +438,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -529,7 +543,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -633,7 +651,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -731,7 +753,11 @@ const ProductItem = () => {
                       <span className="text-dark">$24</span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -832,7 +858,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -933,7 +963,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -1034,7 +1068,11 @@ const ProductItem = () => {
                       </span>
                     </div>
                     <div>
-                     <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
+                      <Link
+                        href="#!"
+                        className="btn btn-primary btn-sm  "
+                        onClick={handleAddClick}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}

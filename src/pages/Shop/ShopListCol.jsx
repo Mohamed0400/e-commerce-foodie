@@ -521,7 +521,7 @@ const ShopListCol = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Haldiram's Sev Bhujia
+                                      Biscuit Package
                                     </Link>
                                   </h2>
                                   <div>

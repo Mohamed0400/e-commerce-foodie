@@ -21,9 +21,9 @@ const MyAccountOrder = () => {
 
   return (
     <div>
-       <>
-            <ScrollToTop/>
-            </>
+      <>
+        <ScrollToTop />
+      </>
       <>
         {/* section */}
         <section>
@@ -164,9 +164,7 @@ const MyAccountOrder = () => {
                                     to="#"
                                     className="fw-semi-bold text-inherit"
                                   >
-                                    <h6 className="mb-0">
-                                      Haldiram's Nagpur Aloo Bhujia
-                                    </h6>
+                                    <h6 className="mb-0">Biscuit package</h6>
                                   </Link>
                                   <span>
                                     <small className="text-muted">400g</small>

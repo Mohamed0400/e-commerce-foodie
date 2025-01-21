@@ -14,9 +14,9 @@ const MyAcconutSetting = () => {
 
   return (
     <div>
-       <>
-            <ScrollToTop/>
-            </>
+      <>
+        <ScrollToTop />
+      </>
       <>
         <div>
           {/* section */}
@@ -138,7 +138,7 @@ const MyAcconutSetting = () => {
                                     <input
                                       type="text"
                                       className="form-control"
-                                      placeholder="Nigam Mishra"
+                                      placeholder="Mohamed Megahed"
                                     />
                                   </div>
                                   {/* input */}
