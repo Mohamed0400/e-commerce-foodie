@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"> Grocery React</h1>
 
 <p float="left">
@@ -61,3 +62,7 @@
 <li>W3C valid code</li>
 <li>Well Documented.</li>
 </ul>
+=======
+# e-commerce-foodie
+e-commerce-foodie legacy for fun app
+>>>>>>> bfcb1af96416b1d00f65cbf8e14347e704f14b6a
